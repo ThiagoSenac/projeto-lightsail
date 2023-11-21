@@ -19,5 +19,5 @@ jobs:
         SOURCE: "./"
         REMOTE_HOST: ${{secrets.REMOTE_HOST}}
         REMOTE_USER: ${{secrets.REMOTE_USER}}
-        TARGET: 54.187.54.159
+        TARGET: "/home/bitnami/htdocs"
         EXCLUDE: "/dist/, /node_modules/, **.env, rebuild_app.sh, watcher.sh"
